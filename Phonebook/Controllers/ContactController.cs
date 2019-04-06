@@ -5,6 +5,10 @@ using Phonebook.Data;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using System.IO;
+using System.Text;
+using System.Drawing;
+using System.Data;
 using Microsoft.AspNetCore.Mvc;
 
 namespace Phonebook.Controllers
@@ -22,6 +26,19 @@ namespace Phonebook.Controllers
                 DataAccesscs.Constacts.Add(contact);
             }
             return RedirectToAction("Index", "Home");
+        }
+        public FileStreamResult GetFile()
+        {
+            string name = "contacts.txt";
+            FileInfo info = new FileInfo(name);
+                using (StreamWriter writer = info.CreateText())
+                {
+                    foreach (var person in DataAccesscs.Constacts)
+                    {
+                        writer.WriteLine(person.Name + " - " + person.Number);
+                    }
+                }
+            return File(info.OpenRead(),"txt/.txt");
         }
     }
 }
