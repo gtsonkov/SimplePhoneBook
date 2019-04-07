@@ -34,9 +34,14 @@ namespace Phonebook.Controllers
             {
                 name = "contacts";
             }
-            else
+            else if (DataAccesscs.Constacts.Count == 1)
             {
                 name = "contact";
+            }
+            else
+            {
+                name = "NoConatcts";
+                //TO DO: Empty File 
             }
             FileInfo info = new FileInfo(name);
                 using (StreamWriter writer = info.CreateText())
