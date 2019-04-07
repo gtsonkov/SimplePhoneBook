@@ -29,7 +29,15 @@ namespace Phonebook.Controllers
         }
         public FileStreamResult GetFile()
         {
-            string name = "contacts.txt";
+            string name = string.Empty;
+            if (DataAccesscs.Constacts.Count>1)
+            {
+                name = "contacts";
+            }
+            else
+            {
+                name = "contact"
+            }
             FileInfo info = new FileInfo(name);
                 using (StreamWriter writer = info.CreateText())
                 {
@@ -38,7 +46,7 @@ namespace Phonebook.Controllers
                         writer.WriteLine(person.Name + " - " + person.Number);
                     }
                 }
-            return File(info.OpenRead(),"txt/.txt");
+            return File(info.OpenRead(),"txt/txt",string.Format("{0}.txt",name));
         }
     }
 }
