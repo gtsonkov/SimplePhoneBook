@@ -36,7 +36,7 @@ namespace Phonebook.Controllers
             }
             else
             {
-                name = "contact"
+                name = "contact";
             }
             FileInfo info = new FileInfo(name);
                 using (StreamWriter writer = info.CreateText())
