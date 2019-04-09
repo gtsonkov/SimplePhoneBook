@@ -31,3 +31,14 @@ D:\Soft Uni\OneDrive\C#\SimplePhoneBook(MVC)\SimplePhoneBook\Phonebook\obj\Debug
 D:\Soft Uni\OneDrive\C#\SimplePhoneBook(MVC)\SimplePhoneBook\Phonebook\obj\Debug\netcoreapp2.0\Phonebook.AssemblyInfo.cs
 D:\Soft Uni\OneDrive\C#\SimplePhoneBook(MVC)\SimplePhoneBook\Phonebook\obj\Debug\netcoreapp2.0\Phonebook.dll
 D:\Soft Uni\OneDrive\C#\SimplePhoneBook(MVC)\SimplePhoneBook\Phonebook\obj\Debug\netcoreapp2.0\Phonebook.pdb
+D:\Softuni\OneDrive\C#\SimplePhoneBook(MVC)\SimplePhoneBook\Phonebook\bin\Debug\netcoreapp2.0\Phonebook.deps.json
+D:\Softuni\OneDrive\C#\SimplePhoneBook(MVC)\SimplePhoneBook\Phonebook\bin\Debug\netcoreapp2.0\Phonebook.runtimeconfig.json
+D:\Softuni\OneDrive\C#\SimplePhoneBook(MVC)\SimplePhoneBook\Phonebook\bin\Debug\netcoreapp2.0\Phonebook.runtimeconfig.dev.json
+D:\Softuni\OneDrive\C#\SimplePhoneBook(MVC)\SimplePhoneBook\Phonebook\bin\Debug\netcoreapp2.0\Phonebook.dll
+D:\Softuni\OneDrive\C#\SimplePhoneBook(MVC)\SimplePhoneBook\Phonebook\bin\Debug\netcoreapp2.0\Phonebook.pdb
+D:\Softuni\OneDrive\C#\SimplePhoneBook(MVC)\SimplePhoneBook\Phonebook\obj\Debug\netcoreapp2.0\Phonebook.csprojAssemblyReference.cache
+D:\Softuni\OneDrive\C#\SimplePhoneBook(MVC)\SimplePhoneBook\Phonebook\obj\Debug\netcoreapp2.0\Phonebook.csproj.CoreCompileInputs.cache
+D:\Softuni\OneDrive\C#\SimplePhoneBook(MVC)\SimplePhoneBook\Phonebook\obj\Debug\netcoreapp2.0\Phonebook.AssemblyInfoInputs.cache
+D:\Softuni\OneDrive\C#\SimplePhoneBook(MVC)\SimplePhoneBook\Phonebook\obj\Debug\netcoreapp2.0\Phonebook.AssemblyInfo.cs
+D:\Softuni\OneDrive\C#\SimplePhoneBook(MVC)\SimplePhoneBook\Phonebook\obj\Debug\netcoreapp2.0\Phonebook.dll
+D:\Softuni\OneDrive\C#\SimplePhoneBook(MVC)\SimplePhoneBook\Phonebook\obj\Debug\netcoreapp2.0\Phonebook.pdb
